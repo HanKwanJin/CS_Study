@@ -6,9 +6,9 @@ email: rhkswls98@kakao.com
 
 # 스터디 멤버
 
-| <img src="https://avatars.githubusercontent.com/u/49313910?v=4" width=75px alt="동동"/>  | <img src="https://avatars.githubusercontent.com/u/49395754?v=4" width=75px alt="헤론"/>  | <img src="https://avatars.githubusercontent.com/u/78026977?v=4" width=75px alt="아리"/>  |<img src="https://avatars.githubusercontent.com/u/95534831?v=4" width=75px alt="연"/>   |
-| :-----: | :-----: | :-----: | :-----: |
-| [동동](https://github.com/HanKwanJin) | [헤론](https://github.com/Heron-Woong)  | [아리](https://github.com/zer0silver) | [연](https://github.com/leeys1218) |
+| <img src="https://avatars.githubusercontent.com/u/49313910?v=4" width=75px alt="동동"/>  | <img src="https://avatars.githubusercontent.com/u/49395754?v=4" width=75px alt="헤론"/>  | <img src="https://avatars.githubusercontent.com/u/78026977?v=4" width=75px alt="아리"/>  | <img src="https://avatars.githubusercontent.com/u/95534831?v=4" width=75px alt="연"/>   | <img src="https://avatars.githubusercontent.com/u/89764169?v=4" width=75px alt="데옹"/> |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| [동동](https://github.com/HanKwanJin) | [헤론](https://github.com/Heron-Woong)  | [아리](https://github.com/zer0silver) | [연](https://github.com/leeys1218) | [데옹](https://github.com/seongddiyong) |
 
 # 스터디 방식
 
