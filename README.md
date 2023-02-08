@@ -1,14 +1,20 @@
 # CS Study
 
+비대면으로 진행됩니다.
+
+따로 정해진 시간 없이 본인이 참여 한만큼 얻어갈 수 있는 방식입니다 :) 
+
+적극적인 참여 부탁드립니다!
+
 참여하고 싶은신 분은 본인 깃허브 아이디를 적어서 이메일을 보내주세요!
 
 email: rhkswls98@kakao.com
 
 # 스터디 멤버
 
-| <img src="https://avatars.githubusercontent.com/u/49313910?v=4" width=75px alt="동동"/>  | <img src="https://avatars.githubusercontent.com/u/49395754?v=4" width=75px alt="헤론"/>  | <img src="https://avatars.githubusercontent.com/u/78026977?v=4" width=75px alt="아리"/>  | <img src="https://avatars.githubusercontent.com/u/95534831?v=4" width=75px alt="연"/>   | <img src="https://avatars.githubusercontent.com/u/89764169?v=4" width=75px alt="데옹"/> |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| [동동](https://github.com/HanKwanJin) | [헤론](https://github.com/Heron-Woong)  | [아리](https://github.com/zer0silver) | [연](https://github.com/leeys1218) | [데옹](https://github.com/seongddiyong) |
+| <img src="https://avatars.githubusercontent.com/u/49313910?v=4" width=75px alt="동동"/>  | <img src="https://avatars.githubusercontent.com/u/49395754?v=4" width=75px alt="헤론"/>  | <img src="https://avatars.githubusercontent.com/u/78026977?v=4" width=75px alt="아리"/>  | <img src="https://avatars.githubusercontent.com/u/95534831?v=4" width=75px alt="연"/>   | <img src="https://avatars.githubusercontent.com/u/89764169?v=4" width=75px alt="데옹"/> | <img src="https://avatars.githubusercontent.com/u/67811880?v=4" width=75px alt="나단"/>  |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| [동동](https://github.com/HanKwanJin) | [헤론](https://github.com/Heron-Woong)  | [아리](https://github.com/zer0silver) | [연](https://github.com/leeys1218) | [데옹](https://github.com/seongddiyong) | [나단](https://github.com/nathan29849)
 
 # :memo: 글 목록
 - [운영체제](https://github.com/HanKwanJin/CS_Study/tree/main/OS)
