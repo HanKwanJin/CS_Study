@@ -10,6 +10,13 @@ email: rhkswls98@kakao.com
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | [동동](https://github.com/HanKwanJin) | [헤론](https://github.com/Heron-Woong)  | [아리](https://github.com/zer0silver) | [연](https://github.com/leeys1218) | [데옹](https://github.com/seongddiyong) |
 
+# :memo: 글 목록
+- [운영체제](https://github.com/HanKwanJin/CS_Study/tree/main/OS)
+- 네트워크
+- 데이터베이스
+- 자료구조
+- 개발자 상식
+
 # 스터디 방식
 
 CS 개념
