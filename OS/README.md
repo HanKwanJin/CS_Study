@@ -1,13 +1,31 @@
 # 운영체제
 
-- [프로세스](https://github.com/HanKwanJin/CS_Study/blob/main/OS/process.md)
+- [프로세스](https://github.com/HanKwanJin/CS_Study/blob/main/OS/프로세스.md)
     - 프로세스란?
     - 프로세스의 상태
     - 프로세스의 메모리 구조
     - PCB란?
     - PCB에 포함되는 정보
     - 컨텍스트 스위칭
-- [스레드](https://github.com/HanKwanJin/CS_Study/blob/main/OS/thread.md)
+- [스레드](https://github.com/HanKwanJin/CS_Study/blob/main/OS/스레드.md)
     - 스레드란?
         -  스레드마다 스택을 독립적으로 할당하는 이유
         -  스레드마다 PC 레지스터를 독립적으로 할당하는 이유
+- [멀티 프로세스와 멀티 스레드](https://github.com/HanKwanJin/CS_Study/blob/main/OS/멀티프로세스와-멀티스레드.md)
+    - 멀티 프로세스란?
+        - 멀티 프로세스 장점
+        - 멀티 프로세스 단점
+    - 멀티 스레드란?
+        - 멀티 스레드 장점
+        - 멀티 스레드 단점
+    - 멀티 프로세스 vs 멀티 스레드
+- [공유 자원과 임계 영역](https://github.com/HanKwanJin/CS_Study/blob/main/OS/공유-자원과-임계-영역.md)
+    - 공유 자원이란?
+    - 임계 영역이란?
+        - 임계 영역 해결 조건
+        - 임계 영역 해결 방법
+            - 뮤텍스
+            - 세마포어
+            - 모니터
+    - 뮤텍스와 세마포어의 차이점
+    - 교착 상태란?
