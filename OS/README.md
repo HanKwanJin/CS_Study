@@ -1,5 +1,11 @@
 # 운영체제
 
+- [운영체제의 역할과 구조](https://github.com/HanKwanJin/CS_Study/blob/main/OS/운영체제의-역할과-구조.md)
+    - 운영체제란?
+    - 운영체제의 역할
+    - 운영체제의 구조
+        - 커널
+        - 시스템 콜
 - [프로세스](https://github.com/HanKwanJin/CS_Study/blob/main/OS/프로세스.md)
     - 프로세스란?
     - 프로세스의 상태
