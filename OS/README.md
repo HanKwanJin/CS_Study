@@ -6,6 +6,19 @@
     - 운영체제의 구조
         - 커널
         - 시스템 콜
+- [컴퓨터의 요소](https://github.com/HanKwanJin/CS_Study/blob/main/OS/컴퓨터의-요소.md)
+    - CPU
+        - 제어장치
+        - 레지스터
+        - 산술논리연산장치
+            - CPU의 연산 처리 과정
+        - 인터럽트
+            - 하드웨어 인터럽트
+            - 소프트웨어 인터럽트
+    - DMA 컨트롤러
+    - 메모리
+    - 타이머
+    - 디바이스 컨트롤러
 - [프로세스](https://github.com/HanKwanJin/CS_Study/blob/main/OS/프로세스.md)
     - 프로세스란?
     - 프로세스의 상태
