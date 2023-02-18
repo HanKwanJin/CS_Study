@@ -48,3 +48,14 @@
             - 모니터
     - 뮤텍스와 세마포어의 차이점
     - 교착 상태란?
+- [CPU 스케줄링 알고리즘](https://github.com/HanKwanJin/CS_Study/blob/main/OS/CPU-스케줄링-알고리즘.md)
+    - CPU 스케줄러
+    - 비선점형 방식
+        - FCFS
+        - SJF
+        - 우선순위
+    - 선점형 방식
+        - RR
+        - SRF
+        - 다단계 큐 스케줄링
+        - 다단계 피드백 큐 스케줄링
