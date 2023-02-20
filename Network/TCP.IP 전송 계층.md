@@ -33,13 +33,15 @@ TCP는 신뢰성을 확보할 때 '3-way handshake'라는 작업을 진행한다
 
 ![image](https://goodgid.github.io/assets/img/network/tcp_ip_3way_4way_1.png)
 
-### SYN[2] 단게
+### SYN[2] 단게 (#1)
 클라이언트는 서버에 ISN[3]을 담아 SYN을 보낸다. ISN은 새로운 TCP연결의 첫 번째 패킷에 할당된 임의의 시퀀스 번호이다. (장치마다 다를 수 있음)
-### SYN + ACK[4] 단계
+### SYN + ACK[4] 단계 (#2)
 서버는 클라이언트에 SYN을 수신하고 서버의 ISN을 보내며 승인번호로 클라이언트의 ISN+1을 반환
-### ASK
+### ASK 단계 (#3)
 클라이언트가 서버에서 반환한 ISN+1 한 값(승인번호)을 담아 ACK를 서버에 보냄
 
 [2] SYN : SYNchronization - 연결 요청 플래그
 [3] ACK : ACKnowledgement - 응답 플래그
 [4] ISN : Initial Sequence Numbers - 초기 네트워크 연결을 할 때 할당된 32비트 고유 시퀀스 번호
+
+## TCP 연결 해제 과정
