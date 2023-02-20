@@ -70,7 +70,7 @@ TCP가 연결을 해제할 때는 4-way handshake 과정을 거침
 [5] Segment : TCP로 연결된 세션간의 전달되는 데이터 단위
 [6] TIME_WAIT : 소켓이 바로 소멸되지 않고 일정 시간 유지되는 상태
 [7] 데이터 무결성(data integrity) : 데이터의 정확성과 일관성을 유지하고 보증하는 것
-.
+
 --- 
 ### 이미지 출처
 [패킷 교환 방식] https://mangkyu.tistory.com/15
