@@ -40,8 +40,31 @@ TCP는 신뢰성을 확보할 때 '3-way handshake'라는 작업을 진행한다
 ### ASK 단계 (#3)
 클라이언트가 서버에서 반환한 ISN+1 한 값(승인번호)을 담아 ACK를 서버에 보냄
 
-[2] SYN : SYNchronization - 연결 요청 플래그
-[3] ACK : ACKnowledgement - 응답 플래그
+[2] SYN : SYNchronization - 연결 요청 플래그, 다른 컴퓨터로 전송된 TCP패킷으로 연결이 이루어 지도록 요청
+[3] ACK : ACKnowledgement - 응답 플래그, 다른 컴퓨터나 네트워크 장치가 다른 컴퓨터에 SYN/ACK 또는 다른 요청을 보낸 것을 확인한 응답
 [4] ISN : Initial Sequence Numbers - 초기 네트워크 연결을 할 때 할당된 32비트 고유 시퀀스 번호
 
 ## TCP 연결 해제 과정
+TCP가 연결을 해제할 때는 4-way handshake 과정을 거침
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtQR1l%2FbtqyJRYdm3E%2F143elB5WCHDlofiAsax2J1%2Fimg.png)
+
+### FIN_WAIT_1
+먼저 클라이언트가 연결을 닫으려 할 때 FIN으로 설정된 세그먼트[5]를 보냄. 그리고 클라이언트는 FIN-WAIT-1 상태로 들어가고 서버의 응답 대기
+### CLOSE_WAIT
+서버는 클라이언트로 ACK라는 승인 세그먼트를 전송. 이후 CLOSE-WAIT 상태로 전환하고 클라이언트가 전송을 받으면 FIN-WAIT-2로 전환
+### LAST_ACK
+서버가 ACK를 보내고 일정 시간 이후 클라이언트에 FIN이라는 세그먼트 전송
+### TIME_WAIT[6]
+클라이언트가 TIME_WAIT 상태가 되고 다시 서버로 ACK를 전송하여 서버는 CLOSED 상태가 됨. 이후 어느 정도의 시간을 대기하면 연결이 닫히고, 클라이언트와 서버의 모든 자원 연결 해제
+
+[TIME_WAIT] 일정 시간이 지나고 연결을 닫는 이유
+1. 지연된 패킷이 발생할 경우를 대비
+    - 패킷이 늦게 도달하고 이를 처리하지 못하면 데이터 무결성[7] 문제 발생(일부 데이터만 들어오는 현상)
+2. 두 장치 연결이 닫혔는지 확인
+    - server의 LAST_ACK 상태에서 ACK를 클라이언트에게서 받으면 CLOSE 상태로 들어가는데, 어떤 문제로 LAST_ACK 상태에서 닫히면 새로운 연결을 하려고 할 때, 장치는 계속 LAST_ACK로 되어있기 때문에 오류가 발생한다.
+ 
+
+[5] Segment : TCP로 연결된 세션간의 전달되는 데이터 단위
+[6] TIME_WAIT : 소켓이 바로 소멸되지 않고 일정 시간 유지되는 상태
+[7] 데이터 무결성(data integrity) : 데이터의 정확성과 일관성을 유지하고 보증하는 것
