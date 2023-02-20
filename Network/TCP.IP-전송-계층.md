@@ -42,8 +42,8 @@ TCP는 신뢰성을 확보할 때 '3-way handshake'라는 작업을 진행한다
 클라이언트가 서버에서 반환한 ISN+1 한 값(승인번호)을 담아 ACK를 서버에 보냄
 
 ---
-[2] SYN : SYNchronization - 연결 요청 플래그, 다른 컴퓨터로 전송된 TCP패킷으로 연결이 이루어 지도록 요청
-[3] ACK : ACKnowledgement - 응답 플래그, 다른 컴퓨터나 네트워크 장치가 다른 컴퓨터에 SYN/ACK 또는 다른 요청을 보낸 것을 확인한 응답
+[2] SYN : SYNchronization - 연결 요청 플래그, 다른 컴퓨터로 전송된 TCP패킷으로 연결이 이루어 지도록 요청<br>
+[3] ACK : ACKnowledgement - 응답 플래그, 다른 컴퓨터나 네트워크 장치가 다른 컴퓨터에 SYN/ACK 또는 다른 요청을 보낸 것을 확인한 응답<br>
 [4] ISN : Initial Sequence Numbers - 초기 네트워크 연결을 할 때 할당된 32비트 고유 시퀀스 번호
 
 ## TCP 연결 해제 과정
@@ -67,8 +67,8 @@ TCP가 연결을 해제할 때는 4-way handshake 과정을 거침
     - server의 LAST_ACK 상태에서 ACK를 클라이언트에게서 받으면 CLOSE 상태로 들어가는데, 어떤 문제로 LAST_ACK 상태에서 닫히면 새로운 연결을 하려고 할 때, 장치는 계속 LAST_ACK로 되어있기 때문에 오류가 발생한다.
  
 ---
-[5] Segment : TCP로 연결된 세션간의 전달되는 데이터 단위
-[6] TIME_WAIT : 소켓이 바로 소멸되지 않고 일정 시간 유지되는 상태
+[5] Segment : TCP로 연결된 세션간의 전달되는 데이터 단위<br>
+[6] TIME_WAIT : 소켓이 바로 소멸되지 않고 일정 시간 유지되는 상태<br>
 [7] 데이터 무결성(data integrity) : 데이터의 정확성과 일관성을 유지하고 보증하는 것
 
 --- 
