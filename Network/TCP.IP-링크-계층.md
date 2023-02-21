@@ -47,6 +47,7 @@
 ![image](https://thebook.io/img/080326/089_1.jpg)
 <br><br>
 케이블은 구리선을 실드 처리하지 않고 덮은 UTP 케이블과 실드 처리하고 덮은 STP로 이루어진다. 우리가 흔히 보는 케이블은 UTP 케이블이며, LAN 케이블이라고 한다.<br>
+
 ![image](https://thebook.io/img/080326/089_2.jpg)
 (와이파이 연결하는 케이블 생각하면 된다.)
 
