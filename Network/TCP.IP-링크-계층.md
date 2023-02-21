@@ -34,12 +34,43 @@
 7. 이런 충돌이 15번 일어나면 통신을 끊는다.
 
 * 참고 : https://security-nanglam.tistory.com/193
-
+---
 [1]캐리어 : carrier sense - 네트워크 상에 나타나는 신호
 
 ## 유선 LAN을 이루는 케이블
 유선 LAN을 이루는 케이블은 TP케이블이라고 하는 트위스트 페어 케이블과 광섬유 케이블이 있다.
 
-### 트위스트 페어 케이블
+### 트위스트 페어 케이블 (twisted pair cable)
+여덟개의 구리선을 두 개씩 꼬아서 묶은 케이블
+![image](https://media.istockphoto.com/id/1095876376/ko/%EB%B2%A1%ED%84%B0/%ED%8A%B8%EC%9C%84%EC%8A%A4%ED%8A%B8-%ED%8E%98%EC%96%B4-%EC%BC%80%EC%9D%B4%EB%B8%94-%EB%B0%94%EC%9D%B4%EC%98%AC%EB%A6%B0-%EC%89%B4%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EB%B2%A1%ED%84%B0-%ED%98%84%EC%8B%A4%EC%A0%81%EC%9D%B8-%EA%B7%B8%EB%A6%BC%EC%9E%85%EB%8B%88%EB%8B%A4.jpg?s=612x612&w=is&k=20&c=4n5Tn_BIUQ4Q4sIBhABpeP10FHAXB_qP_-2upQ68xn0=)
+<br><br>
+케이블은 구리선을 실드 처리하지 않고 덮은 UTP 케이블과 실드 처리하고 덮은 STP로 이루어진다. 우리가 흔히 보는 케이블은 UTP 케이블이며, LAN 케이블이라고 한다.<br>
+(와이파이 연결하는 케이블 생각하면 된다.)
+
+### 광섬유 케이블
+- 광섬유로 만든 케이블
+- 레이저를 이용해 통신하기에 구리선과는 비교할 수 없을 만큼의 장거리 및 고속 통신이 가능함.
+- 보통 100Gbps의 데이터를 전송하며, 광섬유 내부와 외부를 다른 밀도의 유리나 플라스틱 섬유로 제작해 한 번 들어간 빛이 내부에서 계속적으로 반사되며 전진하여 반대편 끝가지 가는 원리
+
+![image](https://visionblog.vieworks.com/wp-content/uploads/2021/06/image-2.png)
+빛의 굴절률이 높은 부분을 코어(core)라고 하고, 낮은 부분을 클래딩이라고 한다.
+---
+## 
+
+
+
+
+
+
+
+
+
+
+---
+이미지 출처
+트위스트 페어 케이블 : https://www.istockphoto.com/kr/%EB%B2%A1%ED%84%B0/%ED%8A%B8%EC%9C%84%EC%8A%A4%ED%8A%B8-%ED%8E%98%EC%96%B4-%EC%BC%80%EC%9D%B4%EB%B8%94-%EB%B0%94%EC%9D%B4%EC%98%AC%EB%A6%B0-%EC%89%B4%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EB%B2%A1%ED%84%B0-%ED%98%84%EC%8B%A4%EC%A0%81%EC%9D%B8-%EA%B7%B8%EB%A6%BC%EC%9E%85%EB%8B%88%EB%8B%A4-gm1095876376-294204825
+<br>
+광섬유 케이블 : https://visionblog.vieworks.com/knowledge/standard-n-interface/optical-fiber-communication-optical-fiber/
+
 
 
