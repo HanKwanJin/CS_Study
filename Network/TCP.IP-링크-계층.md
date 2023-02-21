@@ -20,6 +20,8 @@
 - 동시에 양방향 전송을 하기 위해 4선식 전송로로 되어있다.
     - 2선식 전송로에서도 시분할 방식 등과 같은 멀티플렉싱(데이터 전송에서 두개 이상의 데이터원이 공통의 전송매체를 공유하게 되는 기능)을 이용하여 통신이 가능한데, 이를 사용하면 마치 4선식 전송로인 것처럼 전이중화 통신이 가능해진다.
 
+![image](https://thebook.io/img/080326/088.jpg)
+
 ### CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
 - 이전의 유선 LAN의 반이중화 통신 중 하나의 방식
 - **데이터를 '보낸 이후' 충돌이 발생하면 일정 시간 이후 재전송하는 방식**
@@ -42,9 +44,10 @@
 
 ### 트위스트 페어 케이블 (twisted pair cable)
 여덟개의 구리선을 두 개씩 꼬아서 묶은 케이블
-![image](https://media.istockphoto.com/id/1095876376/ko/%EB%B2%A1%ED%84%B0/%ED%8A%B8%EC%9C%84%EC%8A%A4%ED%8A%B8-%ED%8E%98%EC%96%B4-%EC%BC%80%EC%9D%B4%EB%B8%94-%EB%B0%94%EC%9D%B4%EC%98%AC%EB%A6%B0-%EC%89%B4%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EB%B2%A1%ED%84%B0-%ED%98%84%EC%8B%A4%EC%A0%81%EC%9D%B8-%EA%B7%B8%EB%A6%BC%EC%9E%85%EB%8B%88%EB%8B%A4.jpg?s=612x612&w=is&k=20&c=4n5Tn_BIUQ4Q4sIBhABpeP10FHAXB_qP_-2upQ68xn0=)
+![image](https://thebook.io/img/080326/089_1.jpg)
 <br><br>
 케이블은 구리선을 실드 처리하지 않고 덮은 UTP 케이블과 실드 처리하고 덮은 STP로 이루어진다. 우리가 흔히 보는 케이블은 UTP 케이블이며, LAN 케이블이라고 한다.<br>
+![image](https://thebook.io/img/080326/089_2.jpg)
 (와이파이 연결하는 케이블 생각하면 된다.)
 
 ### 광섬유 케이블
@@ -53,6 +56,7 @@
 - 보통 100Gbps의 데이터를 전송하며, 광섬유 내부와 외부를 다른 밀도의 유리나 플라스틱 섬유로 제작해 한 번 들어간 빛이 내부에서 계속적으로 반사되며 전진하여 반대편 끝가지 가는 원리
 
 ![image](https://visionblog.vieworks.com/wp-content/uploads/2021/06/image-2.png)
+![image](https://thebook.io/img/080326/090_1.jpg)
 빛의 굴절률이 높은 부분을 코어(core)라고 하고, 낮은 부분을 클래딩이라고 한다.
 
 ## 무선 LAN (IEEE802.11)
@@ -63,6 +67,7 @@
 - 하나의 데이터를 받기까지 전송이 제한됨
     - 즉 장치가 신호를 수신하기 시작하면 응답하기 전에는 전송이 완료될 때까지 대기
 - 충돌이 발생하여 메시지가 손실되거나 왜곡될 수 있기 때문에 충돌 방지 시스템 필요
+![image](https://thebook.io/img/080326/090_2.jpg)
 
 ### CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)
 반이중화 통신 중 하나로 장치에서 데이터를 보내기 전, 캐리어 감지 등으로 사전에 가능한 한 충돌을 방지하는 방식을 사용
@@ -77,20 +82,52 @@
 
 **[참고]** 이와 반대되는 전이중화 통신은 양방향 통신이 가능하므로 충돌 가능성이 없기 때문에 충돌을 감지하거나 방지하는 메커니즘이 필요하지 않음
 
+## 무선 LAN을 이루는 주파수
+무선 LAN (WLAN, Wireless Local Area Network)은 무선 신호 전달 방식을 이용해 2대 이상의 장치를 연결한다.
+- 비유도 매체인 공기에 주파수를 쏘아 무선 통신망 구축
+- 주파수 대역 : 2.4GHz or 5GHz 중 하나 사용
+    - 2.4GHz : 장애물에 강한 특성을 가졌지만 전자레인지, 무선 등 전파 간섭이 일어나는 경우가 많음
+    - 5GHz : 사용할 수 있는 채널 수도 많고 동시에 사용할 수 있기에 상대적으로 깨끗한 전파 환경 구축 가능<br>
+    (되도록이면 5GHz 사용하는 것이 좋음)
 
+### 와이파이(wifi)
+전자기기들이 무선 LAN 신호에 연결할 수 있게 하는 기술
+- 무선 접속 장치(AP, Access Point)가 있어야 함 - 공유기
+    - 유선 LAN에 흐르는 신호를 무선 LAN 신호로 변환해 신호가 닿는 범위 내에서 무선 인터넷 사용 가능
+- 무선 LAN을 이용한 기술은 wifi 외에도 지그비, 블루투스 등이 있다.
 
+### BSS (Basic Service Set)
+기본 서비스 집합을 의미하며, 단순 공유기를 통해 네트워크에 접속하는 것이 아닌 동일 BSS 내에 있는 AP들과 장치들이 서로 통신이 가능한 구조
+<br>근거리 무선 통신을 제공하며, 하나의 AP만을 기반으로 구축되어 사용자가 한 곳에서 다른 곳으로 자유롭게 이동하며 네트워크에 접속하는 것은 불가능
 
+### ESS (Extended Service Set)
+하나 이상의 연결된 BSS 그룹
+- 장거리 무선 통신을 제공
+- BSS 보다 많은 가용성과 이동성 지원
+    - 사용자는 한 장소에서 다른 장소로 이동하며 중단 없이 네트워크에 계속 연결 가능
 
+![image](https://thebook.io/img/080326/092.jpg)<br><br>
 
+## 이더넷 프레임
+데이터 링크 계층은 이더넷 프레임을 통해 전달받은 데이터의 에러를 검출하고 캡슐화하며 다음과 같은 구조를 가진다.
+![image](https://thebook.io/img/080326/093.jpg)
 
+- Preamble : 이더넷 프레임의 시작을 알림
+- SFD(Start Frame Delimiter) : 다음 byte부터 MAC 주소 필드가 시작됨을 알림
+- DMAC, SMAC : 수신, 송신 MAC 주소
+- EtherType : 데이터 계층 위의 계층은 IP 프로토콜을 정의
+    - ex) IPv4, IPv6
+- Payload : 전달받은 데이터
+- CRC : 에러 확인 비트
 
-
+**!![용어]!!<br>
+MAC 주소 :  컴퓨터나 노트북 등 각 장치에는 네트워크에 연결하기 위한 장치(LAN 카드)가 있는데, 이를 구별하기 위한 식별번호를 말함. 6bytes(48bits)로 구성됨**
 
 ---
-이미지 출처<br>
-트위스트 페어 케이블 : https://www.istockphoto.com/kr/%EB%B2%A1%ED%84%B0/%ED%8A%B8%EC%9C%84%EC%8A%A4%ED%8A%B8-%ED%8E%98%EC%96%B4-%EC%BC%80%EC%9D%B4%EB%B8%94-%EB%B0%94%EC%9D%B4%EC%98%AC%EB%A6%B0-%EC%89%B4%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EB%B2%A1%ED%84%B0-%ED%98%84%EC%8B%A4%EC%A0%81%EC%9D%B8-%EA%B7%B8%EB%A6%BC%EC%9E%85%EB%8B%88%EB%8B%A4-gm1095876376-294204825
-<br>
-광섬유 케이블 : https://visionblog.vieworks.com/knowledge/standard-n-interface/optical-fiber-communication-optical-fiber/
+### 이미지 출처<br>
+
+광섬유 케이블 : https://visionblog.vieworks.com/knowledge/standard-n-interface/optical-fiber-communication-optical-fiber/<br><br>
+나머지 : https://thebook.io/080326/
 
 
 
