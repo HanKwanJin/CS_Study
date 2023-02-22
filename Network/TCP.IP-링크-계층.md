@@ -48,7 +48,7 @@
 <br><br>
 케이블은 구리선을 실드 처리하지 않고 덮은 UTP 케이블과 실드 처리하고 덮은 STP로 이루어진다. 우리가 흔히 보는 케이블은 UTP 케이블이며, LAN 케이블이라고 한다.<br>
 
-![image](https://thebook.io/img/080326/089_2.jpg)
+![image](https://thebook.io/img/080326/089_2.jpg)<br>
 (와이파이 연결하는 케이블 생각하면 된다.)
 
 ### 광섬유 케이블
@@ -56,8 +56,7 @@
 - 레이저를 이용해 통신하기에 구리선과는 비교할 수 없을 만큼의 장거리 및 고속 통신이 가능함.
 - 보통 100Gbps의 데이터를 전송하며, 광섬유 내부와 외부를 다른 밀도의 유리나 플라스틱 섬유로 제작해 한 번 들어간 빛이 내부에서 계속적으로 반사되며 전진하여 반대편 끝가지 가는 원리
 
-![image](https://visionblog.vieworks.com/wp-content/uploads/2021/06/image-2.png)
-![image](https://thebook.io/img/080326/090_1.jpg)
+![image](https://thebook.io/img/080326/090_1.jpg)<br>
 빛의 굴절률이 높은 부분을 코어(core)라고 하고, 낮은 부분을 클래딩이라고 한다.
 
 ## 무선 LAN (IEEE802.11)
@@ -111,7 +110,7 @@
 
 ## 이더넷 프레임
 데이터 링크 계층은 이더넷 프레임을 통해 전달받은 데이터의 에러를 검출하고 캡슐화하며 다음과 같은 구조를 가진다.
-![image](https://thebook.io/img/080326/093.jpg)
+![image](https://thebook.io/img/080326/093.jpg)<br>
 
 - Preamble : 이더넷 프레임의 시작을 알림
 - SFD(Start Frame Delimiter) : 다음 byte부터 MAC 주소 필드가 시작됨을 알림
@@ -127,7 +126,6 @@ MAC 주소 :  컴퓨터나 노트북 등 각 장치에는 네트워크에 연결
 ---
 ### 이미지 출처<br>
 
-광섬유 케이블 : https://visionblog.vieworks.com/knowledge/standard-n-interface/optical-fiber-communication-optical-fiber/<br><br>
 나머지 : https://thebook.io/080326/
 
 
