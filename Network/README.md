@@ -19,3 +19,10 @@
     - ICMP
         - ICMP가 필요한 이유
         - ICMP의 용도
+- [HTTP/2](https://github.com/HanKwanJin/CS_Study/blob/main/Network/HTTP2.md)
+    - HTTP/2
+        - 멀티플렉싱
+            - HTTP 1.x의 HOL Blocking 문제 해결
+        - 헤더 압축
+        - 서버 푸시
+        - 스트림 우선순위
