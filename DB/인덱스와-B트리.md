@@ -32,6 +32,7 @@
 인덱스는 보통 B-Tree 자료 구조로 이루어져 있다.<br>
 이는 루트 노드, 리프 노드, 이 둘 사이에 있는 브랜치 노드로 나뉜다.
 <br>**(이 부분은 책을 꼭 참고하길 바랍니다.)**
+
 ![Btree](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBLi5L%2FbtrdInhxyVP%2Febff3uYkmyoEty5lULR8kK%2Fimg.png)
 
 트리의 탐색은 맨 위 루트 노드부터 탐색하며, 브랜치 노드를 거쳐 리프 노드까지 내려간다.<br><br>
@@ -73,3 +74,8 @@ B+Tree는 오직 leaf node에만 데이터를 저장하고, leaf node가 아닌 
 ### 인덱스에서 B+Tree를 사용하는 이유
 - 인덱스 컬럼은 부등호를 이용한 순차 검색 연산이 자주 발생할 수 있다.
     - B+Tree의 linked list를 이용하면 순차 검색을 효율적으로 할 수 있음
+
+---
+### 이미지 출처<br>
+
+https://rebro.kr/167
