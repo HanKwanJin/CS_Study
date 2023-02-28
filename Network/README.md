@@ -26,3 +26,11 @@
         - 헤더 압축
         - 서버 푸시
         - 스트림 우선순위
+- [HTTPS](https://github.com/HanKwanJin/CS_Study/blob/main/Network/HTTP2.md)
+    - HTTPS란?
+        - SSL/TLS
+        - 동작과정
+            - 공개키 방식
+            - 대칭키 방식
+            - 인증서 발급 과정
+            - 사용자가 사이트에 접속할 경우
