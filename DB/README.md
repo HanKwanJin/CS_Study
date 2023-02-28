@@ -18,3 +18,12 @@
     - 프로브 단계
     - 빌드 입력이 메모리 크기보다 크다면?
     - MySql 버젼별 해시 조인 변경 사항
+
+
+- [관계형 DB와 noSQL DB](https://github.com/HanKwanJin/CS_Study/blob/main/DB/관계형-DB와-noSQL-DB.md)
+    - 관계형 데이터베이스
+      - MySQL
+      - postgreSQL
+    - noSQL
+      - mongoDB
+      - redis
