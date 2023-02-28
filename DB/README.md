@@ -8,7 +8,13 @@
         - 오른쪽 조인
         - 합집합 조인
 
-- [조인의 원리 3가지](https://github.com/HanKwanJin/CS_Study/blob/db/%2340/join-3-principle/DB/%EC%A1%B0%EC%9D%B8%EC%9D%98-%EC%9B%90%EB%A6%AC-3%EA%B0%80%EC%A7%80.md)
+- [조인의 원리 3가지](https://github.com/HanKwanJin/CS_Study/blob/main/DB/조인의-원리-3가지.md)
     - 중첩 루프 조인
     - 정렬 병합 조인
     - 해시 조인
+
+- [해시 조인 단계](https://github.com/HanKwanJin/CS_Study/blob/main/DB/해시-조인-단계.md)
+    - 빌드 단계
+    - 프로브 단계
+    - 빌드 입력이 메모리 크기보다 크다면?
+    - MySql 버젼별 해시 조인 변경 사항
