@@ -10,6 +10,12 @@
         - FTP
         - SSH
         - DNS
+- [TCP/IP 전송 계층](https://github.com/HanKwanJin/CS_Study/blob/main/Network/TCP.IP-%EC%A0%84%EC%86%A1-%EA%B3%84%EC%B8%B5.md)
+    - TCP/IP 전송 계층
+        - 데이터그램 패킷 교환 방식
+        - 가상회선 패킷 교환 방식
+            - TCP 연결 성립 과정
+            - TCP 연결 해제 과정 
 - [TCP/IP 인터넷 계층](https://github.com/HanKwanJin/CS_Study/blob/main/Network/TCP／IP-인터넷-계층.md)
     - TCP/IP 인터넷 계층
     - IP
@@ -19,6 +25,31 @@
     - ICMP
         - ICMP가 필요한 이유
         - ICMP의 용도
+- [TCP/IP 링크 계층](https://github.com/HanKwanJin/CS_Study/blob/main/Network/TCP.IP-%EB%A7%81%ED%81%AC-%EA%B3%84%EC%B8%B5.md)
+    - 링크 계층
+        - 유선 LAN
+            - 전이중화 통신
+            - CSMA/CD
+        -  유선 LAN을 이루는 케이블
+            - 트위스트 페어 케이블
+            - 광섬유 케이블
+        - 무선 LAN
+            - 반이중화 통신
+            - CSMA/CA      
+        - 무선 LAN을 이루는 주파수
+            - 와이파이
+            - BSS
+            - ESS
+        - 이더넷 프레임
+- [계층 간 데이터 송수신 과정](https://github.com/HanKwanJin/CS_Study/blob/main/Network/TCP.IP-%EA%B3%84%EC%B8%B5-%EA%B0%84-%EC%86%A1%EC%88%98%EC%8B%A0.md)
+    - 계층 간 데이터 송수신 과정
+        (간단한 복습)
+        - 캡슐화 과정
+        - 비캡슐화 과정
+- [PDU](https://github.com/HanKwanJin/CS_Study/blob/main/Network/TCP.IP-PDU.md)
+    - PDU (Protocol Data Unit)
+        - PDU 구성
+        - 참고 내용
 - [HTTP/2](https://github.com/HanKwanJin/CS_Study/blob/main/Network/HTTP2.md)
     - HTTP/2
         - 멀티플렉싱
