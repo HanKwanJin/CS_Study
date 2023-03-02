@@ -54,7 +54,7 @@ Postgres와 MySQL에는 몇 가지 차이점이 있습니다.
 
 # noSQL 데이터베이스
 
-noSQL(not only SQL)이라는 뜻을 가진 데이터베이스입니다. mongDB와 redis등이 있습니다
+noSQL(not only SQL)이라는 뜻을 가진 데이터베이스입니다. mongoDB와 redis등이 있습니다
 
 *사람들은 보통 “NoSQL 데이터베이스”란 용어를 비관계형 데이터베이스를 지칭할 때 사용합니다. 누군가는 “NoSQL”을 “non SQL(비 SQL)“의 약자로, 또 누군가는 “not only SQL(SQL만을 사용하지 않는)”의 약자로 생각합니다. 어떤 경우든 대부분의 사람들은 NoSQL 데이터베이스가 관계형 데이터베이스 이외의 형식으로 데이터를 저장하는 데이터베이스라는 데 동의합니다.* 
 
