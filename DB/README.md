@@ -1,5 +1,11 @@
 # 데이터베이스
-
+- [Key의 종류](https://github.com/HanKwanJin/CS_Study/blob/main/DB/KEY종류.md)
+    - 슈퍼키
+    - 복합키
+    - 후보키
+    - 기본키
+    - 대체키
+    - 외래키
 - [조인의 종류](https://github.com/HanKwanJin/CS_Study/blob/main/DB/조인의-종류.md)
     - 조인이란?
     - 조인의 종류
