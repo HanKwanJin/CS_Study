@@ -28,3 +28,12 @@
     - 빌드 입력이 메모리 크기보다 크다면?
     - MySql 버젼별 해시 조인 변경 사항
 
+- [필드 타입](https://github.com/HanKwanJin/CS_Study/blob/main/DB/%ED%95%84%EB%93%9C-%ED%83%80%EC%9E%85.md)
+    - 데이터베이스 용어
+      - 엔티티와 레코드의 차이점
+      - 필드와 속성의 차이점
+    - 필드 타입
+      - Numeric types(숫자형 타입)
+      - 날짜 및 시간 타입(Date and Time Types)
+      - 문자열 타입(String type)
+
