@@ -38,3 +38,7 @@
     - ARP란?
     - 통신할 때 MAC 주소가 필요한 이유
     - 통신할 때 IP 주소가 필요한 이유
+- [Hop-By-Hop](https://github.com/HanKwanJin/CS_Study/blob/main/Network/Hop-By-Hop.md)
+    - 라우팅
+    - 라우팅 테이블
+    - 게이트웨이
