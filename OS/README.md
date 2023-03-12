@@ -59,3 +59,12 @@
         - SRF
         - 다단계 큐 스케줄링
         - 다단계 피드백 큐 스케줄링
+- [IPC](https://github.com/HanKwanJin/CS_Study/blob/main/OS/IPC.md)
+    - 멀티 프로세싱과 멀티 프로세스 차이
+    - IPC란?
+    - IPC를 구현하는 방법들
+        - PIPE
+        - 메시지 큐
+        - 공유 메모리
+        - 소켓
+    - IPC 주의할 점
