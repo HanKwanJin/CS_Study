@@ -42,3 +42,8 @@
     - 라우팅
     - 라우팅 테이블
     - 게이트웨이
+- [IP-Address](https://github.com/HanKwanJin/CS_Study/blob/main/Network/IP-Address.md)
+    - IPv4 vs IPv6
+    - 클래스 기반 할당 방식
+    - DHCP
+    - NAT
