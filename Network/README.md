@@ -38,3 +38,8 @@
     - ARP란?
     - 통신할 때 MAC 주소가 필요한 이유
     - 통신할 때 IP 주소가 필요한 이유
+- [물리 계층을 처리하는 기기](https://github.com/HanKwanJin/CS_Study/blob/main/Network/물리-계층을-처리하는-기기.md)
+    - 허브
+    - 리피터
+    - NIC
+    - AP
