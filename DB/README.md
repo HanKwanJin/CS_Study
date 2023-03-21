@@ -1,5 +1,11 @@
 # 데이터베이스
-
+- [Key의 종류](https://github.com/HanKwanJin/CS_Study/blob/main/DB/KEY종류.md)
+    - 슈퍼키
+    - 복합키
+    - 후보키
+    - 기본키
+    - 대체키
+    - 외래키
 - [조인의 종류](https://github.com/HanKwanJin/CS_Study/blob/main/DB/조인의-종류.md)
     - 조인이란?
     - 조인의 종류
@@ -13,13 +19,20 @@
     - 정렬 병합 조인
     - 해시 조인
 
+- [인덱스를 만드는 방법과 최적화 기법](https://github.com/HanKwanJin/CS_Study/blob/DB/%2338/index-optimize/DB/%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95%EA%B3%BC-%EC%B5%9C%EC%A0%81%ED%99%94-%EA%B8%B0%EB%B2%95.md)
+    - 인덱스를 만드는 방법
+        - MySQL
+            - 클러스터형 인덱스
+            - 세컨더리 인덱스
+        - MongoDB
+    - 인덱스 최적화 방법 
+    - 인덱스 사용 시 주의점
+
 - [해시 조인 단계](https://github.com/HanKwanJin/CS_Study/blob/main/DB/해시-조인-단계.md)
     - 빌드 단계
     - 프로브 단계
     - 빌드 입력이 메모리 크기보다 크다면?
     - MySql 버젼별 해시 조인 변경 사항
-
-
 - [관계형 DB와 noSQL DB](https://github.com/HanKwanJin/CS_Study/blob/main/DB/관계형-DB와-noSQL-DB.md)
     - 관계형 데이터베이스
       - MySQL
@@ -27,3 +40,11 @@
     - noSQL
       - mongoDB
       - redis
+- [필드 타입](https://github.com/HanKwanJin/CS_Study/blob/main/DB/%ED%95%84%EB%93%9C-%ED%83%80%EC%9E%85.md)
+    - 데이터베이스 용어
+      - 엔티티와 레코드의 차이점
+      - 필드와 속성의 차이점
+    - 필드 타입
+      - Numeric types(숫자형 타입)
+      - 날짜 및 시간 타입(Date and Time Types)
+      - 문자열 타입(String type)
