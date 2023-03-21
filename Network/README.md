@@ -43,3 +43,24 @@
         - 로드 밸런싱이란?
     - L4 스위치와 L7 스위치의 차이
     - L7 스위치의 헬스체크 기능
+- [Hop-By-Hop](https://github.com/HanKwanJin/CS_Study/blob/main/Network/Hop-By-Hop.md)
+    - 라우팅
+    - 라우팅 테이블
+    - 게이트웨이
+- [IP-Address](https://github.com/HanKwanJin/CS_Study/blob/main/Network/IP-Address.md)
+    - IPv4 vs IPv6
+    - 클래스 기반 할당 방식
+    - DHCP
+    - NAT
+- [인터넷 계층을 처리하는 기기](https://github.com/HanKwanJin/CS_Study/blob/main/Network/인터넷-계층을-처리하는-기기.md)
+    - 라우터
+    - L3 스위치
+    - 방화벽
+- [데이터 링크 계층을 처리하는 기기](https://github.com/HanKwanJin/CS_Study/blob/main/Network/데이터-링크-계층을-처리하는-기기.md)
+    - 브리지
+    - L2 스위치
+- [물리 계층을 처리하는 기기](https://github.com/HanKwanJin/CS_Study/blob/main/Network/물리-계층을-처리하는-기기.md)
+    - 허브
+    - 리피터
+    - NIC
+    - AP
